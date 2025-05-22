@@ -1,5 +1,7 @@
-# bug-reproductiond
+# tailwindcss 4.1.7 bug reproduction
 
-open source bug reproduction share repository
-
-main branch is not for use
+```sh
+npx @tailwindcss/cli -i ./input.css -o ./output.css
+npm run serve
+# enter localhost:3000
+```
